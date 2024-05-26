@@ -57,6 +57,14 @@ header{
     
 }
 /* generali di lista */
+i{
+    padding:0.5rem;
+    
+}
+
+i:hover{
+    cursor: pointer;
+}
 a{
     color: black;
     text-decoration: none;
