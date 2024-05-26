@@ -1,0 +1,41 @@
+[class*=container]{
+    background-color: red;
+    min-height: 0.5rem;
+    
+}
+[class*=row]{
+    background-color: rgb(255, 0, 191);
+    min-height: 0.5rem;
+
+}
+[class*=col]{
+    background-color: rgb(81, 0, 255);
+    min-height: 0.5rem;
+
+}
+
+
+
+
+header{
+    height: 5rem;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+main{
+    height: 100rem;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    padding: 10rem;
+}
+footer{
+    height: 10rem;
+    width: 100%;
+    background-color: grey;
+}
