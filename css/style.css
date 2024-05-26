@@ -1,4 +1,4 @@
-[class*=container]{
+/* [class*=container]{
     background-color: red;
     min-height: 0.5rem;
     
@@ -12,9 +12,13 @@
     background-color: rgb(81, 0, 255);
     min-height: 0.5rem;
 
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-
 
 
 header{
@@ -25,12 +29,13 @@ header{
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+/* menu dropdown */
 .my-container-menu{
     position: relative;
     
 }
-.my-container-menu ul{
-    list-style-type: none;
+.my-container-menu .my-dropdown{
+    
     position: absolute;
     left: -87px;
     top: 28px;
@@ -38,24 +43,41 @@ header{
     display: flex;
     flex-direction: column;
     align-content: center;
-    padding: 0;
 }
-.my-container-menu li{
+
+.my-dropdown li{
     margin: 1rem 0;
     padding-left: 2rem;
    
     
 }
 .my-container-menu a{
-    color: black;
-    text-decoration: none;
     padding: 1rem;
     margin-top: 1rem;
     
 }
+/* generali di lista */
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+/* menu responsive da md in poi */
+.myMenuResponsive{
+    display: flex;
+    margin: 0;
+}
 
 
 
+
+/* inizio main */
 main{
     height: 100rem;
     width: 100%;
